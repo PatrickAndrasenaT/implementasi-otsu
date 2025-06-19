@@ -47,7 +47,9 @@ def apply_post_processing(binary_image):
 
 def main():
     # Ganti path gambar di bawah ini sesuai dengan file yang ingin diproses.
-    image_path = 'merpati.jpg' 
+    # ganti: pake os.path biar konsisten buat Windows ataupun Ubuntu
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    image_path = os.path.join(script_dir, 'merpati.jpg') 
     
     try:
         original_image = Image.open(image_path)
