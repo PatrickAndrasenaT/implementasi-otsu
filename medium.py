@@ -1,3 +1,7 @@
+# Vito Fajar Wibawa Solin        -    163221020
+# Patrick Andrasena Tumengkol    -    163221077
+# Fellysha Fernanda              -    163221098
+
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
